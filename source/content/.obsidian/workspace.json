@@ -1,81 +1,216 @@
 {
   "main": {
-    "id": "2e9225e34664efd4",
+    "id": "d155e38ff2ba9f9e",
     "type": "split",
     "children": [
       {
-        "id": "0571c1c94d829fac",
+        "id": "3561ac98f964bc46",
         "type": "tabs",
         "children": [
           {
-            "id": "47ef711f7e8c1d64",
+            "id": "fc95864d98f6edb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d8837e6263008e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "category-folder/Some note.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1243752a4df710bb",
+    "id": "19a5b6f05c316f49",
     "type": "split",
     "children": [
       {
-        "id": "8a4c81639dc8783e",
+        "id": "bbb7e285549153b9",
         "type": "tabs",
         "children": [
           {
-            "id": "b77831b90dd9f87b",
+            "id": "1edccf827ebc4e5e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
-            "id": "0829eb50dbb8a2b3",
+            "id": "d0d846d7e3142a67",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#astro",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
-            "id": "436d75c49c949463",
+            "id": "10689d76289406e4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "f8ffee5283422c29",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e78b343c832ce848",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bdc7b93aa7d5c33",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 384.5
+  },
+  "right": {
+    "id": "e12eef953692479e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecb12a5eb759d66f",
+        "type": "tabs",
+        "dimension": 56.658595641646485,
+        "children": [
+          {
+            "id": "6b48fa9227754a99",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "bf1c7132629e81d8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "09f72add9cf59085",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "eea48e3935fa9501",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "315ab070afb875ed",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "67b211fc9dc38a07",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "3d7b720026da4767",
+        "type": "tabs",
+        "dimension": 43.341404358353515,
+        "children": [
+          {
+            "id": "066d8e3034336ec2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -84,87 +219,73 @@
     "direction": "horizontal",
     "width": 300
   },
-  "right": {
-    "id": "ba1ec06a672fb227",
-    "type": "split",
-    "children": [
-      {
-        "id": "6cea78168fbf9ccd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2aa5a4c073617928",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "category-folder/Some note.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "5acb7020384970a8",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "category-folder/Some note.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "f850ba7e9e699bea",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "2d9129bb8dcf7983",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "category-folder/Some note.md"
-              }
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
-  },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "markdown-importer:Open format converter": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "publish:Publish changes...": false,
+      "workspaces:Manage workspace layouts": false,
+      "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "2d8837e6263008e3",
+  "active": "fc95864d98f6edb5",
   "lastOpenFiles": [
-    "category-folder/index.md",
-    "category-folder/Some note.md",
-    "index.md",
-    "category-folder"
+    "obsidian-live/source/content/04 - Coding Reference/Typescript/Typescript Directory.md",
+    "obsidian-live/source/content/04 - Coding Reference/Astro/Astro View Transitions.md",
+    "obsidian-live/source/content/04 - Coding Reference/Web Accessibility.md",
+    "obsidian-live/source/content/02 - Source Material/How to Learn Anything Faster.md",
+    "obsidian-live/source/content/03 - Tags/react.md",
+    "obsidian-live/source/content/03 - Tags/html.md",
+    "obsidian-live/source/content/03 - Permanent Notes/Coding/Javascript/What is important to know about querySelector vs getElement?.md",
+    "obsidian-live/source/content/04 - Coding Reference/Tailwind CSS/Tailwind Directory.md",
+    "obsidian-live/source/content/03 - Permanent Notes/Coding/React/Considerations when modifying the DOM directly in React?.md",
+    "obsidian-live/source/content/04 - Coding Reference/Microsoft/Sharepoint/Microsoft Sharepoint notes.md",
+    "obsidian-live/source/content/04 - Coding Reference/Astro/Astro Styles & CSS.md",
+    "obsidian-live/source/content/04 - Coding Reference/Code Snippets/HTML.md",
+    "obsidian-live/source/content/04 - Coding Reference/Astro/_Astro Directory.md",
+    "obsidian-live/source/content/04 - Coding Reference/CMS/CMS Directory.md",
+    "obsidian-live/source/content/04 - Coding Reference/Astro/Astro Snippets.md",
+    "obsidian-live/source/content/04 - Coding Reference/Astro/Astro Images.md",
+    "obsidian-live/source/content/04 - Coding Reference/CMS/Keystatic CMS.md",
+    "obsidian-live/source/content/04 - Coding Reference/Astro/Astro UI Frameworks.md",
+    "obsidian-live/source/content/04 - Coding Reference/Dev Tools/VSCode/Frontend Masters - VS Code Can Do That.md",
+    "obsidian-live/source/content/04 - Coding Reference/Astro/Astro Developer Tips.md",
+    "obsidian-live/source/content/05 - Unsorted/Templates/Source Note Template.md",
+    "obsidian-live/source/content/04 - Coding Reference/Astro/Astro Content Collections.md",
+    "obsidian-live/source/content/02 - Source Material/DOM Manipulation in React.md",
+    "obsidian-live/source/content/04 - Coding Reference/CLI Tools/GH Copilot CLI.md",
+    "obsidian-live/source/content/04 - Coding Reference/Tailwind CSS/Tailwind Core.md",
+    "obsidian-live/source/content/04 - Coding Reference/Code Snippets/CSS.md",
+    "obsidian-live/source/content/04 - Coding Reference/Dev Tools/VSCode",
+    "obsidian-live/source/content/05 - Unsorted/Clippings/Pasted image 20250412195233.png",
+    "obsidian-live/source/content/02 - Source Material/AI Output/Coding",
+    "obsidian-live/source/content/04 - Coding Reference/Microsoft/Sharepoint",
+    "obsidian-live/source/content/03 - Permanent Notes/Coding/React",
+    "obsidian-live/source/content/03 - Permanent Notes/Coding/Javascript",
+    "obsidian-live/source/content/03 - Permanent Notes/Coding",
+    "obsidian-live/source/content/05 - Unsorted/Templates",
+    "obsidian-live/source/content/05 - Unsorted/Clippings",
+    "obsidian-live/source/content/05 - Unsorted/Attachments",
+    "obsidian-live/source/content/04 - Coding Reference/Dev Tools",
+    "obsidian-live/source/quartz/static/og-image.png",
+    "obsidian-live/source/quartz/static/icon.png",
+    "obsidian-live/source/docs/images/github-init-repo-options.png",
+    "obsidian-live/source/docs/images/giscus-results.png",
+    "obsidian-live/source/docs/images/quartz-layout-desktop.png",
+    "obsidian-live/source/docs/images/dns records.png",
+    "obsidian-live/source/docs/images/giscus-repo.png",
+    "obsidian-live/source/docs/images/giscus-discussion.png",
+    "obsidian-live/source/docs/images/quartz-layout-tablet.png",
+    "Untitled.canvas",
+    "02 - Literature Notes/My Notes/My Tech Stack.canvas",
+    "WEB DEV NOTES/My Notes/My Tech Stack.canvas"
   ]
 }

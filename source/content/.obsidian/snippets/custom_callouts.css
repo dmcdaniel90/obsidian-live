@@ -1,0 +1,17 @@
+/* code callout */
+.callout[data-callout="code"] {
+    --callout-color: 200, 20, 200;
+    --callout-icon: lucide-code;
+}
+
+/* terminal callout */
+.callout[data-callout="terminal"] {
+    --callout-color: 138, 158, 174;
+    --callout-icon: lucide-terminal;
+}
+
+/* file callout */
+.callout[data-callout="file"] {
+    --callout-color: 83, 221, 219;
+    --callout-icon: lucide-paperclip;
+}
