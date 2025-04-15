@@ -32,7 +32,6 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.Graph({
       localGraph: {
-        ...options,
         scale: 1.3
       }
     }),
