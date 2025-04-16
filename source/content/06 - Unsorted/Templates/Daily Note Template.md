@@ -1,7 +1,6 @@
 ---
 Date: <% tp.date.now("YYYY-MMM-DD") %>
-tags:
-  - template
+tags: []
 ---
 
 

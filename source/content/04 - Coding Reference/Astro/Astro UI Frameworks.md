@@ -3,6 +3,7 @@ tags:
   - astro/hydration
   - astro/ui
   - astro/component
+  - react/astro
 ---
 **Tags**: [[astro#component]], [[react#astro]]
 ## Official UI Frameworks

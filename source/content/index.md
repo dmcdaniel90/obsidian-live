@@ -1,7 +1,8 @@
 ---
-title: My GitHub Pages Notebook!
+title: Devin McDaniel's PKM
 ---
+# Howdy 👋🏾
 
-Hello world!
+> Welcome to my Personal Knowledge Management webpage! I keep all my notes about coding, cooking, and other topics here.
 
-Write some words here!
+
