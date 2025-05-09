@@ -8,8 +8,8 @@ tags:
 ## Outline
 
 - [[#Setting up an AWS Account]]
-- [[#Cloud Fundamentals]]
-- [[#Security and Compliance]]
+- [[#Section 1 Cloud Fundamentals|Cloud Fundamentals]]
+- [[#Section 2 Security and Compliance|Security & Compliance]]
 - Technology
 - Billing and Pricing
 - Exam Prep
@@ -20,7 +20,7 @@ tags:
 
 >[!warning] If you forget your root password and cannot re-authenticate by any other means, you will be permanently locked out of your account. You will need to use a new email to create another account.
 
-Initially, you will set up a root user with unrestricted access. Later, you will learn to create IAM users within the account that have restricted access.
+Initially, you will set up a root user with unrestricted access. Later, you will learn to create IAM users within the account with restricted access.
 
 [Link to AWS Console](https://console.aws.amazon.com)
 
@@ -100,7 +100,7 @@ The Cloud Adoption Framework (CAF) leverages AWS experience and best practices t
 
 ### Shared Responsibility Model
 
-You share responsibilities with AWS. You are responsible for security **IN** the cloud of customer data, accesses, operating systems, network & firewall configuration, authentication, network protection and more. AWS is responsible for Security **FOR** the cloud compute, storage, database, networking, availability, regions, edge locations and more. Responsibilities can vary depending on what managed services you use.
+You share responsibilities with AWS. You are responsible for security **IN** the cloud of customer data, access, operating systems, network & firewall configuration, authentication, network protection and more. AWS is responsible for Security **FOR** the cloud compute, storage, database, networking, availability, regions, edge locations and more. Responsibilities can vary depending on what managed services you use.
 
 
 _Shared Responsibilities in various types of systems. AWS Managed highlighted in italics_
@@ -155,13 +155,13 @@ An IAM role is similar to a user (an identity with permissions), except that the
 
 Roles can be thought of as "hats"; i.e. Parent, Software Engineer, Home Chef. 
 
-Roles are important when a user needs customised access to different services. Instead of creating a new IAM user and hard-coding the user credentials, you **should** use a create custom roles for each application and assign the appropriate roles to your EC2 instance.
+Roles are essential when a user needs customised access to different services. Instead of creating a new IAM user and hard-coding the user credentials, you **should** create custom roles for each application and assign the appropriate roles to your EC2 instance.
 
 #### IAM Policies
 
 A policy says who can do what to which resources and when.
 
-_Example_: "Allow IAM users to rotate their own credentials programmatically and in the console"
+_Example_: "Allow IAM users to rotate their credentials programmatically and in the console"
 _Another example_: "Allow a user to start and stop an EC2 instance"
 
 ```json
@@ -226,7 +226,7 @@ A **Distributed Denial of Service (DDoS)** attack is when a malicious party uses
 #### AWS Web Application Firewall (WAF)
 
 **AWS Web Application Firewall** lets you:
-- Configure rules to allow, block, monitor/count requests
+- Configure rules to allow, block, monitor/count requests.
 - Set rules for IP addresses, country of origin, presence of a script, URL strings, etc.
 - Examples: Blocking known IP addresses of hackers, rate-limiting incoming requests
 
@@ -300,15 +300,69 @@ It requires [[Zero to Mastery - AWS Certified Cloud Practitioner#AWS Config | AW
 
 #### Amazon Detective
 
-**Amazon Detective** works with the findings of [[Zero to Mastery - AWS Certified Cloud Practitioner#Amazon GuardDuty|Amazon GuardDuty]], Cloudtrail logs, and VPC Flow logs during an incident response to automatically distill and organise data into a graph model.
+**Amazon Detective** works with the findings of [[Zero to Mastery - AWS Certified Cloud Practitioner#Amazon GuardDuty|Amazon GuardDuty]], CloudTrail logs, and VPC Flow logs during an incident response to automatically distil and organise data into a graph model.
 
-It builds a linked set of data using machine learning, statistical analysis, and graph theory that can be used to provide visualisations, context and detailed findings in Security Hub or GuardDuty to locate the root cause of the issue.
+It builds a linked set of data using machine learning, statistical analysis, and graph theory. This data can be used to provide visualisations, context, and detailed findings in Security Hub or GuardDuty to locate the root cause of the issue.
 
 #### AWS Artifact
 
 **AWS Artifact** is a free self-service portal to access AWS's internal compliance reports and agreements.
 
-[[↪ Atomic note]]
+[[The Var Keyword]]
+
+## Section 3: Technology
+
+### Technology
+
+#### Ways to Work with AWS
+
+You can work with AWS in the following ways:
+1. The AWS Console - *seen previously*
+2. The AWS SDK (Software Developer Kit) 
+3. Command Line Interface (CLI)
+4. AWS Cloudshell (CLI in the browser)
+
+#### Installing the CLI
+
+Google search for *AWS CLI download* and choose the latest version for your system.
+
+Confirm the installation using `aws --version` in the terminal.
+
+#### Configuring the CLI
+
+You must first configure your credentials by running aws configure to run any commands. It will then ask for:
+1. AWS Access Key ID
+2. Secret Access Key
+3. Default region
+4. Output format
+
+The Access and Secret keys can be generated in IAM (Be sure to be logged in as an IAM user, not root). You may only have a maximum of two keys at any given time. The region is located in the top right dropdown of your AWS Console. The output format can be `json` (default), `yaml`, `stream`, `text`, or `table`.
+
+*Sample Commands*
+`aws s3 ls` - List S3 buckets
+`aws iam list-users` List IAM users
+
+> [AWS CLI Command Reference](https://awscli.amazonaws.com/v2/documentation/api/latest/index.html)
+
+#### AWS Cloudshell
+
+You can access AWS Cloudshell from the terminal icon at the top right of the AWS Console. It may not be available in all regions.
+### Compute
+
+### Storage
+
+### Networking & Content Delivery
+
+### Databases
+
+### Analytics
+
+### Deploying/Managing Infrastructure
+
+### Monitoring
+
+### Support
+
 ## References / Sources
 
 [AWS Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)

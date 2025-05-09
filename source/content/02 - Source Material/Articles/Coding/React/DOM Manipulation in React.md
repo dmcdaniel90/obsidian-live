@@ -1,6 +1,5 @@
 ---
-tags:
-  - template
+tags: []
 ---
 
 **Date created**: 2025-04-13
@@ -82,6 +81,8 @@ Instead of directly accessing and modifying the DOM using `document.getElementsB
 
     *   If you absolutely need to access the DOM elements (e.g., for integrating with a third-party library that requires direct DOM manipulation), use `useRef` to get a reference to the container element.
     *   Use `useEffect` to run code *after* the component has rendered.  Within the `useEffect` hook, you can safely access the DOM elements within the container.
+    >[!question] Could you use `useLayoutEffect`?
+    
     *   Even when using refs, strive to keep the DOM manipulations minimal and focused on integration with external libraries.  Avoid using refs for core component logic.
 
     **Example:**
@@ -132,8 +133,6 @@ Instead of directly accessing and modifying the DOM using `document.getElementsB
 *   **Maintainability:**  Components that rely on direct DOM manipulation are harder to maintain and refactor.
 
 [[Considerations when modifying the DOM directly in React?]]
-[[↪ Atomic note]]
-[[↪ Atomic note]]
 
 
 ## References / Sources

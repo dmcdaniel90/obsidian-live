@@ -1,6 +1,5 @@
 ---
-tags:
-  - template
+tags: []
 ---
 
 **Date created**: 2025-04-13
@@ -18,9 +17,9 @@ Certain events, like `focus`, don’t bubble. To use event delegation with even
 
 If you need to run the same callback on different events, create a named function and pass it (without invoking `()`) as the second argument to all the required event listeners.
 
-[[↪ Atomic note]]
-[[↪ Atomic note]]
-[[↪ Atomic note]]
+[[The Var Keyword]]
+[[The Var Keyword]]
+[[The Var Keyword]]
 
 
 ## References / Sources

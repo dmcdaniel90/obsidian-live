@@ -9,7 +9,7 @@ tags:
 
 ## Section
 
-AWS user are responsible for security **IN**  the cloud of data and information. AWS is responsible for security **FOR** the hardware and security of the services on the hardware. Responsibilities can vary depending on what managed services you use.
+AWS user are responsible for security **IN**  the cloud of data and information. AWS is responsible for the security of the hardware and the security of the services on the hardware. Responsibilities can vary depending on what managed services you use.
 
 ## Connected Ideas
 

@@ -1,5 +1,4 @@
 **Date**: [[2025-04-10]]
-**Tags**: [[learning]], [[zettlekasten]]
 ## Overview
 
 - Effort / Time Exchange

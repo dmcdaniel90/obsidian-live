@@ -2,6 +2,6 @@
 
 >[!warning] Callout with warning type
 
-[[↪ Atomic note]]
+[[The Var Keyword]]
 
 [[#Outline |to top ⤴️]] 

@@ -8,5 +8,5 @@ list from [[]] and !outgoing([[]])
 
 ## dom-manipulation
 
-[[What is important to know about querySelector vs getElement?]]
+[[querySelector vs getElement?]]
 
